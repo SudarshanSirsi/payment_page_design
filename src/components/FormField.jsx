@@ -1,9 +1,12 @@
 import React from "react";
 
 export default function FormField(props) {
+    function handleClick(){
+        
+    }
     return (
         <div className="form--field--container">
-            <div className={`form--field--outer--${props.style}`}>
+            <div className={`form--field--outer--${props.style}`} onClick={handleClick}>
                 <div className={`form--fields--tag--${props.style}`}>
                     <p>{props.offerTag}</p>
                 </div>
@@ -12,8 +15,8 @@ export default function FormField(props) {
                     <div className={`form--radio--text--${props.style}`}>
                         <h5>{props.subscriptionDetails}</h5>
                         <div className="right--text--content">
-                            <div className="content--top"><p>Total <span>₹99</span></p></div>
-                            <div className="content--bottom">₹8 <span> /mo</span></div>
+                            <div className="content--top"><p>Total <span>₹{props.total}</span></p></div>
+                            <div className="content--bottom">₹{props.permonth} <span> /mo</span></div>
                         </div>
                     </div>
                 </div>

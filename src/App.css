@@ -262,3 +262,9 @@ select {
 .content--bottom span {
   font-size: 8px;
 }
+
+.bottom--text{
+  background: #FFFFFF;
+border-top: 2px solid #BEBEBE;
+padding-top: 3rem;
+}

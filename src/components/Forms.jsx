@@ -21,27 +21,38 @@ export default function Forms() {
                         style="expired"
                         offerTag="Offer Expired"
                         subscriptionDetails="12 Months subscription"
+                        total="99"
+                        permonth="8"
                     />
 
                     <FormField
                         style="valid"
                         offerTag="Recommended"
                         subscriptionDetails="12 Months subscription"
+                        total="179"
+                        permonth="15"
+                        
                     />
 
                     <FormField
                         style="valid"
                         offerTag="Recommended"
                         subscriptionDetails="6 Months subscription"
+                        total="149"
+                        permonth="25"
                     />
 
                     <FormField
                         style="valid"
                         offerTag="Recommended"
                         subscriptionDetails="3 Months subscription"
+                        total="99"
+                        permonth="33"
                     />
 
-
+                    <div className="bottom--text">
+                        
+                    </div>
                 </form>
             </div>
             <form action="">

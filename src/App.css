@@ -167,11 +167,26 @@ select {
   padding: 0.6rem 1rem;
 }
 
+.form--fields>div {
+  padding: 4px;
+}
+
 .form--field--outer {
   background: #E7E7E7;
   border: 2px solid #BEBEBE;
   border-radius: 4px;
- 
+}
+
+.form--field--outer--expired {
+  background: #E7E7E7;
+  border: 2px solid #BEBEBE;
+  border-radius: 4px;
+}
+
+.form--field--outer--valid {
+  background: #D7EDDD;
+  border: 2px solid #47BA68;
+  border-radius: 4px;
 }
 
 .form--fields--tag {
@@ -186,9 +201,10 @@ select {
 
 .form--fields--tag p {
   padding: 0px 1.4rem;
- 
+
 }
-.radio--container{
+
+.radio--container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -196,26 +212,27 @@ select {
 }
 
 .form--radio--text {
-  color:#BEBEBE;
+  color: #BEBEBE;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.right--text--content{
+.right--text--content {
   padding-left: 5rem;
 }
 
-.content--top{
+.content--top {
   font-size: 12px;
-  
-}
-.content--top span{
-  font-size: 16px;
-  
+
 }
 
-.content--bottom{
+.content--top span {
+  font-size: 16px;
+
+}
+
+.content--bottom {
   font-size: 12px;
   padding-left: 1.55rem;
   /* display: flex;
@@ -223,6 +240,6 @@ select {
   justify-content: space-around; */
 }
 
-.content--bottom span{
+.content--bottom span {
   font-size: 8px;
 }

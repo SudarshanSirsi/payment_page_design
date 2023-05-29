@@ -20,7 +20,7 @@ export default function Forms() {
                     <div className="form--field--outer">
                         <input type="radio" />
                         <div className="form--fields--text">
-                            <h6>12 Months subscription</h6>
+                            <h5>12 Months subscription</h5>
                         </div>
                     </div>
                 </form>

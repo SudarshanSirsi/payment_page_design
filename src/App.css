@@ -104,25 +104,33 @@ justify-content: center;
 }
 .form--container{
   background-color: white;
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   justify-content: space-around;
   position: relative;
-  top: 70px;
-  left: 360px;
+  top: 3rem;
+  left: 16rem;
   border-radius: 8px;
 }
 
 .form--top{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
 }
 
 .top--content{
-  /* display: flex; */
-  padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0rem 2rem;
+  /* padding-bottom: 0.5rem; */
 }
 
 .number{
+  color: white;
   background-color: #0096FF;
   height: 28px;
   width: 28px;
@@ -133,7 +141,30 @@ justify-content: center;
 }
 
 .content--text{
+  color: #3C4852;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* padding-right: 10px; */
+}
+
+
+.form--top--text{
+  width: 366px;
+  color: #3C4852;
+  /* height: rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
+.form--fields{
+  padding: 0.6rem 1rem;
+}
+
+.form--field--outer{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }

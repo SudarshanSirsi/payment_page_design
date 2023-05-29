@@ -14,6 +14,16 @@ export default function Forms() {
                         <div className="content--text">Subscribe</div>
                     </div>
                 </div>
+
+                <div className="form--top--text"><h3>Select your subscription plan</h3></div>
+                <form className="form--fields">
+                    <div className="form--field--outer">
+                        <input type="radio" />
+                        <div className="form--fields--text">
+                            <h6>12 Months subscription</h6>
+                        </div>
+                    </div>
+                </form>
             </div>
             <form action="">
 

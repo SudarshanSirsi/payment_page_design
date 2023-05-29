@@ -18,10 +18,20 @@ export default function Forms() {
                 <div className="form--top--text"><h3>Select your subscription plan</h3></div>
                 <form className="form--fields">
                     <div className="form--field--outer">
-                        <input type="radio" />
-                        <div className="form--fields--text">
-                            <h5>12 Months subscription</h5>
+                        <div className="form--fields--tag">
+                            <p>Offer Expired</p>
                         </div>
+                        <div className="radio--container">
+                            <input type="radio" name="subscription" />
+                            <div className="form--radio--text">
+                                <h5>12 Months subscription</h5>
+                                <div className="right--text--content">
+                                    <div className="content--top"><p>Total <span>₹99</span></p></div>
+                                    <div className="content--bottom">₹8 <span> /mo</span></div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </form>
             </div>

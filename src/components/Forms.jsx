@@ -18,23 +18,25 @@ export default function Forms() {
                 <div className="form--top--text"><h3>Select your subscription plan</h3></div>
                 <form className="form--fields">
                     <FormField
-                        style="form--field--outer--expired"
+                        style="expired"
                         offerTag="Offer Expired"
                         subscriptionDetails="12 Months subscription"
                     />
 
                     <FormField
-                        style="form--field--outer--valid"
+                        style="valid"
                         offerTag="Recommended"
                         subscriptionDetails="12 Months subscription"
                     />
 
                     <FormField
+                        style="valid"
                         offerTag="Recommended"
                         subscriptionDetails="6 Months subscription"
                     />
 
                     <FormField
+                        style="valid"
                         offerTag="Recommended"
                         subscriptionDetails="3 Months subscription"
                     />

@@ -189,7 +189,17 @@ select {
   border-radius: 4px;
 }
 
-.form--fields--tag {
+.form--fields--tag--expired {
+  background: #F77171;
+  border-radius: 0px 0px 4px 4px;
+  color: white;
+  position: relative;
+  width: 120px;
+  font-size: 12px;
+  left: 2.3rem;
+}
+
+.form--fields--tag--valid {
   background: #F77171;
   border-radius: 0px 0px 4px 4px;
   color: white;
@@ -211,12 +221,21 @@ select {
   padding-bottom: 0.5rem;
 }
 
-.form--radio--text {
+.form--radio--text--expired {
   color: #BEBEBE;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
+.form--radio--text--valid {
+  color: #3C4852;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 
 .right--text--content {
   padding-left: 5rem;
